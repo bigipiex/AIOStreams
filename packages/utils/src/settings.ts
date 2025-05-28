@@ -161,7 +161,7 @@ export const Settings = cleanEnv(process.env, {
     desc: 'Secret key for the addon, used for encryption and must be 64 characters of hex',
   }),
   API_KEY: str({
-    default: 'dls2oFaDhRWAaf0yRRMZTpRNWRSQRHcIYgUXdnHjCVwN58Bq1FX8IrU5yKc7UUGl',
+    default: '',
     desc: 'API key for the addon, can be set to anything',
   }),
   SHOW_DIE: bool({
